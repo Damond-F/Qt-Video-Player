@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_File"/>
+   </widget>
+   <widget class="QMenu" name="menuVideo">
+    <property name="title">
+     <string>Video</string>
+    </property>
+    <widget class="QMenu" name="menuSpeed">
+     <property name="title">
+      <string>Speed</string>
+     </property>
+     <addaction name="action0_5x_2"/>
+     <addaction name="action1_0x"/>
+     <addaction name="action1_5x_2"/>
+     <addaction name="action2_0x"/>
+    </widget>
+    <addaction name="menuSpeed"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuVideo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPlayButton"/>
+   <addaction name="separator"/>
+   <addaction name="actionPauseButton"/>
+   <addaction name="separator"/>
+   <addaction name="actionVolume"/>
+   <addaction name="separator"/>
+   <addaction name="actionFullscreen"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionOpen_File">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-add-folder-24.png</normaloff>:/imgs/icons/icons8-add-folder-24.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open File</string>
+   </property>
+  </action>
+  <action name="actionPlayButton">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-circled-play-24.png</normaloff>:/imgs/icons/icons8-circled-play-24.png</iconset>
+   </property>
+   <property name="text">
+    <string>PlayButton</string>
+   </property>
+  </action>
+  <action name="actionPauseButton">
+   <property name="icon">
+    <iconset>
+     <normalon>:/imgs/icons/icons8-pause-button-24.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>PauseButton</string>
+   </property>
+  </action>
+  <action name="action0_5x">
+   <property name="text">
+    <string>0.5x</string>
+   </property>
+  </action>
+  <action name="action1x">
+   <property name="text">
+    <string>1x</string>
+   </property>
+  </action>
+  <action name="action1_5x">
+   <property name="text">
+    <string>1.5x</string>
+   </property>
+  </action>
+  <action name="action2x">
+   <property name="text">
+    <string>2x</string>
+   </property>
+  </action>
+  <action name="actionVolume">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-audio-24.png</normaloff>:/imgs/icons/icons8-audio-24.png</iconset>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+  </action>
+  <action name="actionFullscreen">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-full-screen-30.png</normaloff>:/imgs/icons/icons8-full-screen-30.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fullscreen</string>
+   </property>
+  </action>
+  <action name="action0_5x_2">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-rewind-24.png</normaloff>:/imgs/icons/icons8-rewind-24.png</iconset>
+   </property>
+   <property name="text">
+    <string>0.5x</string>
+   </property>
+  </action>
+  <action name="action1_0x">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-resume-button-24.png</normaloff>:/imgs/icons/icons8-resume-button-24.png</iconset>
+   </property>
+   <property name="text">
+    <string>1.0x</string>
+   </property>
+  </action>
+  <action name="action1_5x_2">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-fast-forward-24.png</normaloff>:/imgs/icons/icons8-fast-forward-24.png</iconset>
+   </property>
+   <property name="text">
+    <string>1.5x</string>
+   </property>
+  </action>
+  <action name="action2_0x">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/imgs/icons/icons8-fast-forward-24.png</normaloff>:/imgs/icons/icons8-fast-forward-24.png</iconset>
+   </property>
+   <property name="text">
+    <string>2.0x</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
