@@ -1,5 +1,6 @@
 # Qt-Video-Player
 Media player built with Qt Framework
+
 Aplication look:
 
 ![pre1](https://user-images.githubusercontent.com/96760391/184859905-42aee2cc-243a-46e2-bf1d-96125fb1d789.PNG)
