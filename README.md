@@ -14,6 +14,7 @@ This project was used to learn about serveral different technologies -
 ![pre 4](https://user-images.githubusercontent.com/96760391/184861063-e46cffae-e8a8-4871-aa8d-1d7b66200902.png)
 
 Simply upload mp4 file using QT file system
+
 The video will start playing soon after
 
 ![pre2](https://user-images.githubusercontent.com/96760391/184861379-6e5773f8-7a47-4474-a9ec-7511f6e9a992.PNG)
